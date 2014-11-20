@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewLabelTituloLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelTituloLivro" />
+
+    <TextView
+        android:id="@+id/textViewTituloLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewLabelAutor"
+        android:layout_alignLeft="@+id/textViewPaginas"
+        android:text="@string/vazio" />
+
+    <TextView
+        android:id="@+id/textViewLabelAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLabelTituloLivro"
+        android:layout_below="@+id/textViewLabelTituloLivro"
+        android:layout_marginTop="25dp"
+        android:text="@string/labelAutor" />
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewLabelAutor"
+        android:layout_alignBottom="@+id/textViewLabelAutor"
+        android:layout_alignLeft="@+id/textViewTituloLivro"
+        android:text="@string/vazio" />
+
+    <TextView
+        android:id="@+id/textViewLabelEditora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLabelAutor"
+        android:layout_below="@+id/textViewLabelAutor"
+        android:layout_marginTop="25dp"
+        android:text="@string/labelEditora" />
+
+    <TextView
+        android:id="@+id/textViewEditora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewLabelEditora"
+        android:layout_alignBottom="@+id/textViewLabelEditora"
+        android:layout_alignLeft="@+id/textViewAutor"
+        android:text="@string/vazio" />
+
+    <TextView
+        android:id="@+id/textViewLabelPaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLabelEditora"
+        android:layout_below="@+id/textViewLabelEditora"
+        android:layout_marginTop="25dp"
+        android:text="@string/labelPaginas" />
+
+    <TextView
+        android:id="@+id/textViewPaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewLabelPaginas"
+        android:layout_alignBottom="@+id/textViewLabelPaginas"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textViewLabelPaginas"
+        android:text="@string/vazio" />
+
+</RelativeLayout>

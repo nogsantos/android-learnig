@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrimeiroProjeto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="labelTituloLivro">Título:</string>
+    <string name="labelAutor">Autor:</string>
+    <string name="labelEditora">Editora:</string>
+    <string name="labelPaginas">Páginas:</string>
+    <string name="titulo">Cadastro de Livros</string>
+    <string name="botaoSalvar">Salvar</string>
+    <string name="vazio"></string>
+    <string name="titulo2">Lista de Livros</string>
+    <string name="titulo3">Detalhes do Livro</string>
+
+</resources>

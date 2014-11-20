@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewTituloLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelTituloLivro" />
+
+    <EditText
+        android:id="@+id/editTextTituloLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPaginas"
+        android:layout_alignParentBottom="@+id/textViewTituloLivro"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTituloLivro"
+        android:layout_below="@+id/textViewTituloLivro"
+        android:layout_marginTop="25dp"
+        android:text="@string/labelAutor" />
+
+    <EditText
+        android:id="@+id/editTextAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAutor"
+        android:layout_alignBottom="@+id/textViewAutor"
+        android:layout_alignLeft="@+id/editTextTituloLivro"
+        android:layout_alignRight="@+id/editTextTituloLivro"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewEditora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAutor"
+        android:layout_below="@+id/textViewAutor"
+        android:layout_marginTop="25dp"
+        android:text="@string/labelEditora" />
+
+    <EditText
+        android:id="@+id/editTextEditora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewEditora"
+        android:layout_alignBottom="@+id/textViewEditora"
+        android:layout_alignLeft="@+id/editTextAutor"
+        android:layout_alignRight="@+id/editTextAutor"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewPaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewEditora"
+        android:layout_below="@+id/textViewEditora"
+        android:layout_marginTop="25dp"
+        android:text="@string/labelPaginas" />
+
+    <EditText
+        android:id="@+id/editTextPaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPaginas"
+        android:layout_alignBottom="@+id/textViewPaginas"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textViewPaginas"
+        android:ems="5"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPaginas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/botaoSalvar" />
+
+</RelativeLayout>

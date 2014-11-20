@@ -12,7 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
+/**
+ * Main class
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override

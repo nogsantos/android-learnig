@@ -1,6 +1,7 @@
 package br.com.nogsantos.primeiroprojeto;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 /**
@@ -16,10 +17,14 @@ public class Tela2Activity extends Activity implements ListBookFragment.OnListBo
     }
     @Override
     public void onBookSelected(long id) {
-        // TODO Auto-generated method stub
+
         DetailBookFragment detailFragment = (DetailBookFragment) getFragmentManager().findFragmentById(R.id.detail_book_fragment);
         if(detailFragment != null){
             detailFragment.loadBook((int) id);
+        }else {
+            Intent intent = new Intent(this, Tela3Activity.class);
+            intent.putExtra("id", id);
+            startActivity(intent);
         }
     }
 }

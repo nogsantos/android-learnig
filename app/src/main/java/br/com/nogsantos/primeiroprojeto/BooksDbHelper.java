@@ -10,12 +10,12 @@ import android.util.Log;
  * @since 20/11/2014 9:34 AM
  */
 public class BooksDbHelper extends SQLiteOpenHelper {
-    static final String DB_NAME = "treinaweb.db";
-    static final int DB_VERSION = 1;
-    static final String TABLE = "Livros";
-    static final String B_ID = "_id";
-    static final String B_TITULO = "titulo";
-    static final String B_AUTOR = "autor";
+    static final String DB_NAME   = "treinaweb.db";
+    static final int DB_VERSION   = 1;
+    static final String TABLE     = "Livros";
+    static final String B_ID      = "_id";
+    static final String B_TITULO  = "titulo";
+    static final String B_AUTOR   = "autor";
     static final String B_EDITORA = "editora";
     static final String B_PAGINAS = "paginias";
 

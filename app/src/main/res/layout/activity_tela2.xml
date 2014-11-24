@@ -6,7 +6,7 @@
 
     <fragment class="br.com.nogsantos.primeiroprojeto.ListBookFragment"
               android:id="@+id/list_book_fragment"
-              android:layout_width="match_parent"
+              android:layout_width="fill_parent"
               android:layout_height="match_parent"
               tools:layout="@layout/fragment_book_list"/>
 

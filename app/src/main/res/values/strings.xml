@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PrimeiroProjeto</string>
+    <string name="app_name">TreinaWeb</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="labelTituloLivro">Título:</string>
@@ -13,5 +13,22 @@
     <string name="vazio"></string>
     <string name="titulo2">Lista de Livros</string>
     <string name="titulo3">Detalhes do Livro</string>
+    <string name="title_activity_tela3">Tela3Activity</string>
+    <string name="actionAdd">Adicionar</string>
+    <string name="title_activity_tela4">Tela4Activity</string>
+    <string name="botaoCarregar">Carregar</string>
+    <string name="imagemDescricao">Imagem Carregada da web</string>
+    <string name="title_activity_tela5">Tela5Activity</string>
+    <string name="title_activity_tela6">Tela6Activity</string>
+    <string name="titulo4">Dados:</string>
+    <string name="labelId">Id:</string>
+    <string name="botaoBuscar">Buscar</string>
+    <string name="labelNome">Nome:</string>
+    <string name="labelIdade">Idade:</string>
+    <string name="labelTelefone">Telefone:</string>
+    <string name="labelRua">Rua:</string>
+    <string name="labelCidade">Cidade:</string>
+    <string name="labelEstado">Estado:</string>
+    <string name="title_activity_tela7">Tela7Activity</string>
 
 </resources>

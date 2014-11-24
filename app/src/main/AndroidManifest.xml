@@ -2,18 +2,41 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.nogsantos.primeiroprojeto" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
         <activity
             android:name="br.com.nogsantos.primeiroprojeto.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
+            android:name="br.com.nogsantos.primeiroprojeto.Tela2Activity"
             android:label="@string/titulo2"
-            android:name="br.com.nogsantos.primeiroprojeto.Tela2Activity">
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="br.com.nogsantos.primeiroprojeto.Tela3Activity"
+            android:label="@string/title_activity_tela3"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="br.com.nogsantos.primeiroprojeto.Tela4Activity"
+            android:label="@string/title_activity_tela4" >
+        </activity>
+        <activity
+            android:name="br.com.nogsantos.primeiroprojeto.Tela5Activity"
+            android:label="@string/title_activity_tela5" >
+        </activity>
+        <activity
+            android:name="br.com.nogsantos.primeiroprojeto.Tela6Activity"
+            android:label="@string/title_activity_tela6" >
+        </activity>
+        <activity
+            android:name="br.com.nogsantos.primeiroprojeto.Tela7Activity"
+            android:label="@string/title_activity_tela7" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
